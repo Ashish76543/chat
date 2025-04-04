@@ -1,0 +1,20 @@
+DB name users
+
+table names
+-----------
+
+users
+--------
+columns-id serial primary key,name text,socketid int
+
+
+chatno
+--------
+columns- id serial primary key,sender text,receiver text
+
+
+
+messages
+---------
+
+columns-id serial primary key,message text,sender text,receiver text
